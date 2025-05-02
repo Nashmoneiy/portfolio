@@ -1,0 +1,100 @@
+.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.main-heading{
+    color: rgb(11, 68, 87);
+}
+.underline{
+    height: 02px;
+    width: 10rem;
+    background-color: rgb(73, 86, 100);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bg-c-light{
+    background-color: #f2f2f2;
+}
+
+.img-text{
+    position: absolute;
+    width: 10%;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    left: 29%;
+    top: 205%;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+p{
+    background: rgb(216, 216, 212);
+    padding: 10px;
+    color: rgb(27, 24, 24);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h6{
+    background: rgb(17, 37, 43);
+    padding: 10px;
+    color: white;
+    border-radius: 2px;
+
+}
+
+
+.section-footer a{
+    color: white;
+    text-decoration: none;
+}
+.first-label{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    margin-left: -40%;
+    color: rgba(0, 0, 0, 0.64);
+    font-family: cursive;
+    background: rgba(245, 245, 245, 0.363);
+    border-radius: 15px ;
+    width: 80%;
+    height: 15vh;
+    
+}
+.second-label{
+    font-size: 40;
+    font-weight: bolder;
+    margin-bottom: 15%;
+    margin-left: 50%;
+    color: white;
+    height: 15vh;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    .img-text{
+        top: 230%;
+        left: 50%;
+        color: white;
+        
+    }
+    .first-label{
+     font-size: 150%;
+     background: red;
+     width: 200%;
+     position: absolute;
+     top: 160%;
+      
+    }
+  
+    
+  }
+ 
+
+
+
+
+
+
